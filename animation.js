@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const observerOptions = { threshold: 0.3 };
+  const observerOptions = { threshold: 0.5 };
   const elementsToAnimate = [
     { selector: ".hero-text h1", animationClass: "animate-topToBottom" },
     { selector: ".hero-text p", animationClass: "animate-bottomToTop" },
