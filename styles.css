@@ -901,7 +901,7 @@ footer {
   }
 
   .hero-image img{
-    height: 100px;
+    height: 150px;
     width: auto;
   }
 
@@ -958,12 +958,17 @@ footer {
 
   .whatsapp-container {
     padding: 0 0;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 50px;
   }
 
   .whatsapp-container-text h1 {
     font-size: 1.5rem;
+  }
+
+  .whatsapp-container-img img{
+    height: 150px;
+    width: auto;
   }
 
   .footer-container {
