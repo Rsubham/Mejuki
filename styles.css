@@ -804,6 +804,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .footer-container {
@@ -841,7 +842,7 @@ footer {
   font-size: 1rem;
   color: var(--light);
   text-decoration: underline;
-  text-decoration-thickness: .1px;
+  text-decoration-thickness: .5px;
   text-underline-offset: 5px;
   text-decoration-color: var(--red);
 }
@@ -863,6 +864,21 @@ footer {
 
 .footer-column a:hover {
   color: var(--red);
+}
+
+.footer-line{
+  width: 90%;
+  border-bottom: 1.5px solid rgba(255, 255, 255, 0.242);
+}
+
+.copyright{
+  padding-block: 1rem;
+  font-size: .9rem;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 @media (max-width: 1024px) {
